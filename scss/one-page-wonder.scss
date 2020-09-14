@@ -7,7 +7,19 @@
 @import "navbar.scss";
 @import "masthead.scss";
 @import "bootstrap-overrides.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
 
 .really-large {
     font-size:240px !important;
+}
+
+header.background-vancouver {
+    background-image: url("/img/background.jpg");
+    width: 100%;
+
+    background-position: center;
 }
